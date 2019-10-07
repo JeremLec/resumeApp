@@ -1,0 +1,17 @@
+<ion-segment [(ngModel)]="parcours">
+  <ion-segment-button (click)="viewMode = 'formations'" value="formations">
+    <ion-label>Formations</ion-label>
+  </ion-segment-button>
+  <ion-segment-button (click)="viewMode = 'experiences'">
+    <ion-label>Expériences</ion-label>
+  </ion-segment-button>
+  <ion-segment-button (click)="viewMode = 'competences'">
+    <ion-label>Compétences</ion-label>
+  </ion-segment-button>
+</ion-segment>
+
+<div [ngSwitch]="viewMode">
+    <formation *ngSwitchCase="'formations'"></formation>
+    <experience *ngSwitchCase="'experiences'"></experience>
+    <competences *ngSwitchCase="'competences'"></competences>
+</div>

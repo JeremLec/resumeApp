@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-
 const routes: Routes = [
   {
     path: '',
@@ -9,11 +8,19 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+    loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule)
   },
-  {
-    path: 'list',
-    loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+  { 
+    path: 'skills', 
+    loadChildren: () => import('./pages/skills/skills.module').then(m => m.SkillsPageModule)
+  },
+  { 
+    path: 'portfolio', 
+    loadChildren: () => import('./pages/portfolio/portfolio.module').then(m => m.PortfolioPageModule)
+  },
+  { 
+    path: 'contact', 
+    loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactPageModule) 
   }
 ];
 

@@ -24,3 +24,37 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+
+@font-face {
+  font-family: "Bebas Neue";
+  src:  url("../src/assets/font/BebasNeue-Bold.ttf") format("ttf"),
+        url("../src/assets/font/BebasNeue-Bold.otf") format("otf");
+}
+
+ion-content {
+    font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+    padding: 2em;
+}
+p {
+    text-align: justify;
+}
+h1,h2,h3 {
+    font-family: "Bebas Neue";
+}
+h1 + h2 {
+    margin-top: 0;
+}
+
+ion-toolbar {
+    --background : #8E8F6E;
+    --color : #ffffff;
+}
+
+ion-menu-button, 
+ion-title {
+    --color : #ffffff;
+}
