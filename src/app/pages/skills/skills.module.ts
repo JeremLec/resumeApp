@@ -10,6 +10,7 @@ import { NavExperiencesComponent } from '../../common/nav-experiences/nav-experi
 import { FormationComponent } from 'src/app/common/formation/formation.component';
 import { CompetencesComponent } from 'src/app/common/competences/competences.component';
 import { ExperienceComponent } from 'src/app/common/experience/experience.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const routes: Routes = [
   {
@@ -23,7 +24,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    FontAwesomeModule
   ],
   declarations: [SkillsPage, NavExperiencesComponent,FormationComponent,CompetencesComponent,ExperienceComponent]
 })
