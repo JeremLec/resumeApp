@@ -6,6 +6,7 @@ import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+import { FileOpener } from '@ionic-native/file-opener/ngx';
 
 
 @Component({
@@ -38,9 +39,16 @@ export class AppComponent {
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
     private router: Router,
-    private location: Location
+    private location: Location,
+    private fileOpener: FileOpener
   ) {
     this.initializeApp();
+  }
+
+  openPdf(){
+    this.fileOpener.open('http://localhost:8100/assets/cv-jeremy-leclercq.pdf','application/pdf')
+      .then(() => console.log('File is opened'))
+      .catch(e => console.log('Error opening file', e));
   }
 
   initializeApp() {
