@@ -2,12 +2,35 @@ ion-toolbar {
     --min-height : 40vh;
     text-align: center;
     img {
-        width: 120px;
-        height: 120px;
+        width: 160px;
+        height: 160px;
         border-radius: 100px;
+        border : 5px solid #414042;
     }
 }
 
-h2 {
-    font-size: 1.5em;
+ion-text {
+    color: #8E8F6E;
+    font-weight: bold;
+    a {
+        color: #8E8F6E;
+        text-decoration: none;
+        font-weight: bold;
+    }
 }
+
+.reseaux-sociaux {
+    display: flex;
+    justify-content: center;
+    a {
+        padding: 0.5em;
+        font-family: "Raleway", sans-serif;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+p {
+    line-height: 1.5em;
+}
+

@@ -11,7 +11,7 @@ const routes: Routes = [
     loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule)
   },
   { 
-    path: 'skills', 
+    path: 'experiences', 
     loadChildren: () => import('./pages/skills/skills.module').then(m => m.SkillsPageModule)
   },
   { 

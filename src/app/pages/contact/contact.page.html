@@ -5,27 +5,38 @@
     </ion-buttons>
     <div>
       <img src="assets/profil.jpg" alt="profil">
-      <h2>Jeremy Leclercq</h2>
-      <h3>Développeur Front-End</h3>
+      <h2>
+        Jeremy Leclercq
+      </h2>
+      <div class="reseaux-sociaux">
+        <a href="https://www.linkedin.com/in/leclercqjeremy/">
+          <fa-icon [icon]="['fab', 'linkedin']" size="2x"></fa-icon> <br>
+          Linked In
+        </a>
+        <a href="https://github.com/JeremLec">
+          <fa-icon [icon]="['fab', 'github-square']" size="2x"></fa-icon> <br>
+          Github
+        </a>
+      </div>
+
     </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="wrapper">
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore consequuntur adipisci cumque praesentium tempora
-      numquam neque, provident odio molestias minus cum repellendus nesciunt excepturi omnis molestiae ipsum ab soluta
-      consequatur.
-    </p>
-  </div>
+<ion-content padding>
+  <p>
+    Étant à la recherche d'un nouveau défis professionnel, je suis à l'écoute de toutes opportunités professionnelles.
+  </p>
+  <p>
+      N'hésitez pas à me contacter par les différents moyens à votre disposition.
+  </p>
   <ion-item lines="full">
     <ion-label>Téléphone</ion-label>
-    <ion-text>0495/175445</ion-text>
+    <ion-text><a href="tel:+32495175445">0495/175445</a></ion-text>
   </ion-item>
   <ion-item lines="full">
     <ion-label>Email</ion-label>
-    <ion-text>leclercq.jeremy@outlook.fr</ion-text>
+    <ion-text><a href="mailto:leclercq.jeremy@outlook.fr">leclercq.jeremy@outlook.fr</a></ion-text>
   </ion-item>
   <ion-item lines="full">
     <ion-label>Adresse</ion-label>
