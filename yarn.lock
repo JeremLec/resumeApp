@@ -350,6 +350,34 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/document-viewer@^5.15.0":
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/document-viewer/-/document-viewer-5.15.0.tgz#fe527218e4b99be07dd8486850d88a7ffdfd9401"
+  integrity sha512-Cyd1RZEhhejmvxrUlNu9nC2GqbGvihKkxMI6e3HckJc08aR+0KxRnnlBl3kEPqqjWzwqaNJD1bRhBHFQlH1IOw==
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/file-opener@^5.15.0":
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/file-opener/-/file-opener-5.15.0.tgz#b14497c163a8c73060dfc2e2b93db317f60a3f14"
+  integrity sha512-cJUymKuxwAz+XCjBUJa9N7q1Fo+trru5LS45aVX0iKYDgj+cEb7peEzPzqoX2z8EPXZev0pzowf05/+/HP411Q==
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/file-transfer@^5.15.0":
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/file-transfer/-/file-transfer-5.15.0.tgz#e86ec8dde77e3d46175bc612e980d0b0e590b72f"
+  integrity sha512-mqXzAhLIWi6st8uqblMi/gn2mrQqoICyd+RAwpFV4WsCQYJD0rTuAIQcmyPu22u1p9edK5rbm7aezDNGaLMqVA==
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/file@^5.15.0":
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/file/-/file-5.15.0.tgz#f88eaaca70c30f91dfae75404247f9f6ca521408"
+  integrity sha512-oNJFITc4dnKCGF41QLHfA3huDADew6P4OSoCWuj3Iroj7c1Ls6Tf0yP75P+bzArUdCdUvfjNtLeY4hywt5B2Tg==
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/splash-screen@^5.0.0":
   version "5.14.0"
   resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.14.0.tgz#25450ea6034aed183dff87e14553bfc6c00f349f"
@@ -2085,6 +2113,31 @@ cordova-lib@^9.0.0:
     semver "^5.6.0"
     shebang-command "^1.2.0"
     underscore "^1.9.1"
+
+cordova-plugin-document-viewer@^0.9.13:
+  version "0.9.13"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-document-viewer/-/cordova-plugin-document-viewer-0.9.13.tgz#aec91b111a93f15d3319c4a3dbe089f4b4c925f7"
+  integrity sha512-9Lem77mmvupHpejpn8mxhnoDVpy72U/nFxjvKKIJnBA70tb6TVxWXSwCmq2mfFp+fyppwwbqAU3x8NOCPiOaoQ==
+
+cordova-plugin-file-opener2@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-2.2.1.tgz#9e422bc5e215d8eca0338ed5cd357b64b027440b"
+  integrity sha512-yeN242U6T+TDlrJ5m00br+lAKsf2fHXn1u1TsDxB5fFUGINZUYLKthEctCMFkQUnURWk+Nh6tc+WtdQjY581Uw==
+
+cordova-plugin-file-opener@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file-opener/-/cordova-plugin-file-opener-1.0.0.tgz#db294f2197d679b309d04a80ce82845e6880b1fb"
+  integrity sha1-2ylPIZfWebMJ0EqAzoKEXmiAsfs=
+
+cordova-plugin-file-transfer@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file-transfer/-/cordova-plugin-file-transfer-1.7.1.tgz#a75d8be2ebc3bb9b23c5b1bbd199214ec267586b"
+  integrity sha1-p12L4uvDu5sjxbG70ZkhTsJnWGs=
+
+cordova-plugin-file@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file/-/cordova-plugin-file-6.0.2.tgz#f3911479f8357e9aacb5576674f8d95b31a1fb20"
+  integrity sha512-m7cughw327CjONN/qjzsTpSesLaeybksQh420/gRuSXJX5Zt9NfgsSbqqKDon6jnQ9Mm7h7imgyO2uJ34XMBtA==
 
 cordova-serve@^3.0.0:
   version "3.0.0"

@@ -14,6 +14,10 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
+import { PdfViewerService } from './services/pdf-viewer.service';
+// import { File } from '@ionic-native/file';
+// import { FileTransfer } from '@ionic-native/file-transfer';
+// import { DocumentViewer } from '@ionic-native/document-viewer';
 
 @NgModule({
   declarations: [AppComponent],
@@ -27,7 +31,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    PdfViewerService
   ],
   bootstrap: [AppComponent]
 })
